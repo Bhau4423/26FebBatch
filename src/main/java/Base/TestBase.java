@@ -13,6 +13,7 @@ public class TestBase {
 		driver.manage().window().maximize();
 		driver.get("https://kite.zerodha.com/");
 		driver.manage().timeouts().implicitlyWait(25,	TimeUnit.SECONDS);
+		//updating
 	}
 
 }
